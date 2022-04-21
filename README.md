@@ -1,6 +1,6 @@
 #### Shopping cart with React/TypeScript
 
-##### (tutorial)[https://www.youtube.com/watch?v=7NqeSf1c-bw]
+##### [tutorial](https://www.youtube.com/watch?v=7NqeSf1c-bw)
 
 - Libraries
   - material-ui
