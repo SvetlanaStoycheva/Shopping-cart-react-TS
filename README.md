@@ -1,12 +1,12 @@
 #### Shopping cart with React/TypeScript
 
-##### [tutorial](https://www.youtube.com/watch?v=7NqeSf1c-bw)
+#### [tutorial>>>](https://www.youtube.com/watch?v=7NqeSf1c-bw)
 
-- Libraries
+- Libraries and API
   - material-ui
   - styled-components
   - react-query
-  - Fake store API: https://fakestoreapi.com
+  - [Fake store API](https://fakestoreapi.com)
 
 #### Challenges
 
