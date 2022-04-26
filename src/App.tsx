@@ -21,7 +21,7 @@ export type CartItemType = {
   amount: number;
 };
 
-//'https://fakestoreapi.com/products
+//fetch random products from Fake Store Api
 const getProducts = async (): Promise<CartItemType[]> =>
   await (await fetch('https://fakestoreapi.com/products')).json();
 // const response = await fetch('https://fakestoreapi.com/products');
@@ -92,7 +92,11 @@ const App = () => {
         />
       </Drawer>
       <StyledButton onClick={() => setCartOpen(true)}>
-        <Badge badgeContent={getTotalItems(cartItems)} color='error'>
+        <Badge
+          badgeContent={getTotalItems(cartItems)}
+          color='error'
+          overlap='rectangular'
+        >
           <AddShoppingCartIcon />
         </Badge>
       </StyledButton>
